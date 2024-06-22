@@ -1,0 +1,185 @@
+* {
+  margin: 0 !important;
+}
+li,
+a {
+  cursor: pointer;
+}
+
+.header-logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 30px !important;
+}
+
+.card {
+  border: none !important;
+  cursor: pointer;
+}
+
+.cart-icon {
+  color: white;
+  background-color: tomato;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.discount {
+  color: tomato;
+  text-decoration: line-through;
+}
+
+.badge {
+  width: 40px;
+  color: white;
+  background-color: tomato;
+}
+
+.add-cart-btn {
+  background-color: tomato !important;
+  color: white !important;
+  margin: 0 auto !important;
+}
+
+.modal {
+  text-align: center;
+  margin-top: 50px !important;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal-body {
+  display: flex;
+  gap: 30px;
+  padding: 30px !important;
+}
+.modal-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modal-img {
+  height: 300px;
+  width: 200px;
+}
+
+.btn-add-cart {
+  background-color: tomato !important;
+  color: white !important;
+  width: 150px;
+}
+
+.btn-close {
+  padding: 10px !important;
+}
+
+.modal-item-desc {
+  font-size: 12px;
+}
+
+.modal-input-container {
+  padding: 15px;
+  border: 1px solid #999;
+  width: 80px;
+  border-radius: 20x;
+}
+.modal-input {
+  width: 50px;
+  padding: 10px;
+  border-radius: 30%;
+  border: 1px solid #999;
+  text-align: center;
+}
+
+/* styles for cart */
+
+.cart-header {
+  text-align: center;
+}
+
+.cart-table thead {
+  border-bottom: 2px solid #dee2e6;
+}
+.cart-table tfoot {
+  border-top: 2px solid #dee2e6;
+}
+
+.table thead th,
+.table tbody tr th,
+.table tbody tr td,
+.table tfoot th,
+.table tfoot td {
+  border: none;
+  text-align: center;
+}
+
+.cart-input-container {
+  width: 200px;
+}
+.cart-input {
+  border: 1px solid #999;
+  border-radius: 10px;
+  width: 100%;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+}
+
+.cart-input:focus,
+.cart-input::selection {
+  border: none;
+  outline: none;
+}
+
+.delete-cart {
+  cursor: pointer;
+}
+
+.btn-buy {
+  background-color: tomato !important;
+  color: white !important;
+}
+
+.model-body-buynow {
+  display: block;
+}
+
+.modal-buynow-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-buynow-input {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 0px !important;
+  border-radius: 20px;
+  border: 1px solid #999;
+}
+
+.btn-buynow-modal {
+  width: 100%;
+  border-radius: 20px !important;
+}
+
+.done-box {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.done-message {
+  cursor: pointer;
+}
