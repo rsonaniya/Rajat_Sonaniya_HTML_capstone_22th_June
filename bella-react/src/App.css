@@ -9,7 +9,6 @@ a {
 .header-logo {
   font-family: "Great Vibes", cursive;
   font-size: 30px !important;
-  cursor: pointer !important;
 }
 
 .card {
@@ -123,6 +122,9 @@ a {
   text-align: center;
 }
 
+tr {
+  align-items: center;
+}
 .cart-input-container {
   width: 200px;
 }
